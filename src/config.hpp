@@ -1,0 +1,20 @@
+/*
+ * config.hpp
+ *
+ *  Created on: Mar 27, 2013
+ *      Author: yuncong
+ */
+
+#ifndef CONFIG_HPP_
+#define CONFIG_HPP_
+
+//float CONDITIONAL_EUCLIDEAN_SEG_TOLERANCE = 0.04;
+float CONDITIONAL_EUCLIDEAN_SEG_TOLERANCE = 0.04;
+int CONDITIONAL_EUCLIDEAN_SEG_MINSIZE = 30;
+int CUSTOM_REGION_GROWING_ANGLE_THRESH = 5; // degree
+//int CUSTOM_REGION_GROWING_ANGLE_THRESH = 1; // degree
+float ESTIMATE_NORMALS_RADIUS = 0.2;
+//float ESTIMATE_NORMALS_RADIUS = 0.1;
+float DOWNSAMPLE_VOXEL_SIZE = 0.01;
+
+#endif /* CONFIG_HPP_ */

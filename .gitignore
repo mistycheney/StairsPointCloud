@@ -1,0 +1,6 @@
+staircase/
+staircase_vertical/
+stairs_images/
+staircase_new/
+*.pcd
+.DS_Store
